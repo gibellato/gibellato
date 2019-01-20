@@ -89,6 +89,7 @@ ul {
 .menu {
     background-color: #ff919f;
     width: 100%;
+    overflow: hidden;
 }
  /*---HEADER BACKGROUND--*/
 
@@ -97,3 +98,10 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 610px) {
+            .nav-item {
+              display: block;
+              width: 100%;
+            }
+         }
