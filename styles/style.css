@@ -21,6 +21,8 @@ header {
 }
 
 .headerflag {
+  min-width: 2%;
+  min-height: 2%;
   width: 2.5%;
   height: 2.5%;
   margin: 1%;
