@@ -317,13 +317,13 @@ footer {
   width: 100%;
   clear: both;
   position: relative;
+  background-color: #f1a6a1;
 }
 
 .copyright p {
   border: 0;
   margin: 0;
   padding: 1%;
-  background-color: #f1a6a1;
 	font-size: 70%;
   font-family: houschka-rounded, sans-serif;
   font-style: normal;
