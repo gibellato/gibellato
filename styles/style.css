@@ -46,7 +46,7 @@ a {
   height: 2.5%;
   margin: 1%;
   box-sizing: border-box;
-  box-shadow: 2px 2px #f1a6a1;
+  box-shadow: 2px 2px #feb6d8;
   float: right;
   transition: transform .3s;
   display: inline-block;
@@ -63,7 +63,7 @@ a {
   height: 2%;
   margin: 1%;
   box-sizing: border-box;
-  box-shadow: 2px 2px #f1a6a1;
+  box-shadow: 2px 2px #feb6d8;
   float: left;
   transition: transform .3s;
   display: inline-block;
