@@ -121,17 +121,17 @@ a {
 }
 
 .menu {
-    background-color: #f1a6a1;
+    background-color: #feb6d8;
     width: 100%;
     overflow: hidden;
 }
  /*---HEADER BACKGROUND--*/
 
 .wrapper {
-  background-image: url(images/header.jpg);
+  background-image: url(images/header1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 40%;
+  background-position: 0% 50%;
 }
 
 /*--TERMINA O HEADER--*/
