@@ -5,44 +5,47 @@
   <title>Patricia Gibellato</title>
 
   <meta charset="utf-8">
-  <meta name="description" content="Mia pagina personale e portfolio: artista e studente di Design della Comunicazione">
+  <meta name="description" content="Mia pagina personale: artista e studente di Design della comunicazione">
   <meta name="author" content="Patricia Vanz Gibellato">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Icon-->
-  <link rel="icon" type="image/png" sizes="96x96" href="images/saitama_icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="styles/images/favicon-16x16.png">
   <!--CSS-->
-  <link rel="stylesheet" type="text/css" href="styles/cssreset.css">
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <!--Font Adobe Typekit-->
   <link rel="stylesheet" href="https://use.typekit.net/ndq2czn.css">
   <!-- Latest compiled and minified CSS test
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Popper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <!--Font Awesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
+
 <body>
   <header class="container justify-content-center">
-
     <section class="wrapper">
-        <div class="countries">
-          <div class="flags">
+        <div class="top-icons">
+
+          <div class="icons">
+              <a href="http://facebook.com/Patricia.Gibellato" title="Facebook" target="_blank">
+                <img src="styles/images/facebook.png" class="headericon"></a>
+              <a href="http://instagram.com/patgibellato" title="Instagram" target="_blank">
+                <img src="styles/images/instagram.png" class="headericon"></a>
               <a href="BRindex.html" title="PT-BR"><img src="styles/images/brflag.png" class="headerflag"></a>
               <a href="ITindex.html" title="IT"><img src="styles/images/italyflag.png"class="headerflag"></a>
               <a href="index.html" title="UK"><img src="styles/images/ukflag.png" class="headerflag"></a>
           </div>
-
-      <a href="ITindex.html"><img src="styles/images/logo3.png" alt="Patricia" class="menu-logo" id="pat"></a>
-
-
+      <a href="ITindex.html"><img src="styles/images/logo4.png" alt="Patricia" class="menu-logo" id="pat"></a>
       </div>
   </section>
     <nav class="menu">
@@ -54,8 +57,50 @@
       <li class="nav-item"><a class ="nav-link" href="ITabout.html">chi sono</a></li>
     </ul>
   </nav>
-
 </header>
-</body>
+<div class="galleria">
 
+  <s id="s1"></s>
+  <s id="s2"></s>
+  <s id="s3"></s>
+  <s id="s4"></s>
+
+  <div class="slider">
+    <div style="background-image: url(styles/images/slide1.jpg)">
+			<h2>BENVENUTO NELLA MIA PAGINA PERSONALE!</h2>
+			<p>Qui puoi dare un'occhiata ai miei disegni e ricensioni<br>dalla mia lista di lettura e watchlist!</p>
+		</div>
+    <div style="background-image: url(styles/images/slide2.png);">
+			<h2>Da' un'occhiata ai miei disegni!</h2>
+      <p class="slidelink"><a href="ITdrawings.html">Vai a "disegni"</a></p>
+		</div>
+    <div style="background-image: url(styles/images/slide3.png)">
+			<h2>Cosa sto leggendo!</h2>
+      <p class="slidelink"><a href="ITreading.html">Vai a "letture"</a></p>
+		</div>
+    <div style="background-image: url(styles/images/slide4.gif)">
+			<h2>Cosa sto guardando!</h2>
+      <p class="slidelink"><a href="ITwatching.html">Vai a "watchlist"</a></p>
+		</div>
+  </div>
+
+  <div class="prevNext">
+    <div><a href="#s4"></a><a href="#s2"></a></div>
+    <div><a href="#s1"></a><a href="#s3"></a></div>
+    <div><a href="#s2"></a><a href="#s4"></a></div>
+    <div><a href="#s3"></a><a href="#s1"></a></div>
+  </div>
+
+  <div class="bullets">
+    <a href="#s1">1</a>
+    <a href="#s2">2</a>
+    <a href="#s3">3</a>
+    <a href="#s4">4</a>
+  </div>
+</div>
+<footer class="copyright">
+    <p>&copy; copyright 2019.<br>
+    Designed by Patricia Gibellato.</p>
+</footer>
+</body>
 </html>

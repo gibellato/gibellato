@@ -9,9 +9,9 @@
   <meta name="author" content="Patricia Vanz Gibellato">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Icon-->
-  <link rel="icon" type="image/png" sizes="96x96" href="images/saitama_icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="styles/images/favicon-16x16.png">
   <!--CSS-->
-  <link rel="stylesheet" type="text/css" href="styles/cssreset.css">
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <!--Font Adobe Typekit-->
   <link rel="stylesheet" href="https://use.typekit.net/ndq2czn.css">
@@ -20,6 +20,7 @@
   <!--Font Awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Popper JS -->
@@ -32,32 +33,74 @@
 
 <body>
   <header class="container justify-content-center">
-
     <section class="wrapper">
-        <div class="countries">
-          <div class="flags">
+        <div class="top-icons">
+
+          <div class="icons">
+              <a href="http://facebook.com/Patricia.Gibellato" title="Facebook" target="_blank">
+                <img src="styles/images/facebook.png" class="headericon"></a>
+              <a href="http://instagram.com/patgibellato" title="Instagram" target="_blank">
+                <img src="styles/images/instagram.png" class="headericon"></a>
               <a href="BRindex.html" title="PT-BR"><img src="styles/images/brflag.png" class="headerflag"></a>
               <a href="ITindex.html" title="IT"><img src="styles/images/italyflag.png"class="headerflag"></a>
               <a href="index.html" title="UK"><img src="styles/images/ukflag.png" class="headerflag"></a>
           </div>
-
-      <a href="index.html"><img src="styles/images/logo3.png" alt="Patricia" class="menu-logo" id="pat"></a>
-
-
+      <a href="BRindex.html"><img src="styles/images/logo4.png" alt="Patricia" class="menu-logo" id="pat"></a>
       </div>
   </section>
     <nav class="menu">
     <ul class="navigation justify-content-center">
-      <li class="nav-item"><a class ="nav-link"  href="index.html">home</a></li>
-      <li class="nav-item"><a class ="nav-link" href="drawings.html">desenhos</a></li>
-      <li class="nav-item"><a class ="nav-link" href="reading.html">leituras</a></li>
-      <li class="nav-item"><a class ="nav-link" href="watching.html">assistindo</a></li>
-      <li class="nav-item"><a class ="nav-link" href="about.html">sobre mim</a></li>
+      <li class="nav-item"><a class ="nav-link"  href="BRindex.html">home</a></li>
+      <li class="nav-item"><a class ="nav-link" href="BRdrawings.html">desenhos</a></li>
+      <li class="nav-item"><a class ="nav-link" href="BRreading.html">leituras</a></li>
+      <li class="nav-item"><a class ="nav-link" href="BRwatching.html">watchlist</a></li>
+      <li class="nav-item"><a class ="nav-link" href="BRabout.html">sobre mim</a></li>
     </ul>
   </nav>
-
 </header>
+<div class="galleria">
 
+  <s id="s1"></s>
+  <s id="s2"></s>
+  <s id="s3"></s>
+  <s id="s4"></s>
+
+  <div class="slider">
+    <div style="background-image: url(styles/images/slide1.jpg)">
+			<h2>BEM-VINDO À MINHA PÁGINA PESSOAL!</h2>
+			<p>Aqui você pode dar uma olhada nos meus desenhos e posts<br>sobre o que estou assistindo e lendo!</p>
+		</div>
+    <div style="background-image: url(styles/images/slide2.png);">
+			<h2>Dê uma olhada nos<br>meus desenhos!</h2>
+      <p class="slidelink"><a href="BRdrawings.html">Vai para "desenhos"</a></p>
+		</div>
+    <div style="background-image: url(styles/images/slide3.png)">
+			<h2>Veja o que estou lendo!</h2>
+      <p class="slidelink"><a href="BRreading.html">Vai para "leituras"</a></p>
+		</div>
+    <div style="background-image: url(styles/images/slide4.gif)">
+			<h2>E o que estou assistindo!</h2>
+      <p class="slidelink"><a href="BRwatching.html">Vai para "assistindo"</a></p>
+		</div>
+  </div>
+
+  <div class="prevNext">
+    <div><a href="#s4"></a><a href="#s2"></a></div>
+    <div><a href="#s1"></a><a href="#s3"></a></div>
+    <div><a href="#s2"></a><a href="#s4"></a></div>
+    <div><a href="#s3"></a><a href="#s1"></a></div>
+  </div>
+
+  <div class="bullets">
+    <a href="#s1">1</a>
+    <a href="#s2">2</a>
+    <a href="#s3">3</a>
+    <a href="#s4">4</a>
+  </div>
+</div>
+<footer class="copyright">
+    <p>&copy; copyright 2019.<br>
+    Designed by Patricia Gibellato.</p>
+</footer>
 </body>
-
 </html>
