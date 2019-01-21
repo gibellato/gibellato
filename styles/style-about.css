@@ -128,7 +128,7 @@ a {
  /*---HEADER BACKGROUND--*/
 
 .wrapper {
-  background-image: url(images/header1.png);
+  background-image: url(images/headerbg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 50%;
@@ -157,6 +157,8 @@ a {
   display: inline-block;
   float: right;
 }
+
+
 
 /*--FOOTER--*/
 
