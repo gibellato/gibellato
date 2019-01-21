@@ -133,6 +133,7 @@ a {
   background-position: 0% 40%;
 }
 
+/*--TERMINA O HEADER--*/
 
 * {
   box-sizing: border-box;
@@ -309,6 +310,8 @@ a {
   background-color: #ffffff;
 }
 
+/*--FOOTER--*/
+
 footer {
   width: 100%;
 }
@@ -324,12 +327,3 @@ footer {
   font-weight: 400;
   color: #474747;
 }
-
-
-
-@media screen and (max-width: 610px) {
-            .nav-item {
-              display: block;
-              width: 100%;
-            }
-         }
