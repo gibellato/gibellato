@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
+  min-height: 100%;
   height: 100%;
   font-family: sans-serif;
 }
@@ -314,6 +315,8 @@ a {
 
 footer {
   width: 100%;
+  clear: both;
+  position: relative;
 }
 
 .copyright p {
@@ -327,3 +330,12 @@ footer {
   font-weight: 400;
   color: #474747;
 }
+
+
+
+@media screen and (max-width: 610px) {
+            .nav-item {
+              display: block;
+              width: 100%;
+            }
+         }
