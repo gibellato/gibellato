@@ -182,7 +182,7 @@ a {
 }
 
 .galleria .prevNext a {
-	background: #ffffff;
+	background: rgba(0, 0, 0, 0.3);
 	position: absolute;
 	width:       60px;
 	height:      60px;
@@ -196,6 +196,7 @@ a {
 	left: 0;
 }
 .galleria .prevNext a:hover {
+  background: rgba(0, 0, 0, 0.5);
 	opacity: 1;
 }
 .galleria .prevNext a+a {
@@ -281,7 +282,7 @@ a {
 .prevNext a {
   border-radius: 50%;
 	margin: 0 3px;
-  color: #ffffff;
+  color: #000000;
 	text-decoration: none;
   font-family: houschka-rounded, sans-serif;
   font-style: normal;
