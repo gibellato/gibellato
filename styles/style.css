@@ -25,7 +25,7 @@ a {
   height: 2%;
   margin: 1%;
   box-sizing: border-box;
-  box-shadow: 2px 2px #f1a6a1;
+  box-shadow: 2px 2px #feb6d8;
   float: left;
   transition: transform .3s;
   }
@@ -33,9 +33,7 @@ a {
 
 .top-icons {
     width: 100%;
-    background-color: transparent;
     padding: 5px 0;
-    overflow: hidden;
     margin: 0;
 }
 
@@ -75,20 +73,27 @@ a {
 
 .menu-logo {
   display: inline-block;
+  justify-content: center;
   }
 
+.menu-logo a{
+  display: inline-block;
+  position: sticky;
+}
+
 #pat {
-  padding-top: 0.5%;
-  min-width: 20%;
-  min-height: 20%;
-  width: 35%;
-  height: 35%;
+  padding: 0.8%;
+  min-width: 3%;
+  min-height: 3%;
+  width: 8%;
+  height: 8%;
   transition: transform .2s;
-  margin-left: 25%;
+  vertical-align: middle;
+  position: relative;
 }
 
 .menu-logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 
@@ -104,34 +109,36 @@ a {
   display: inline-block;
   font-family: houschka-rounded, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 100%;
-  padding: 15px;
 }
 
 .navigation a {
   text-decoration: none;
   color: #ffffff;
-  padding: 15px;
+  padding: 33px;
+  margin-left: -4px;
 }
 
-.nav-item:hover {
-  background-color: #94b9ed;
+.nav-item a:hover {
   color: #ffffff;
+  background-color: #333333;
+}
+.menu li {
+  transition: transform .2s;
+}
+.menu li:hover {
+  transform: scale(1.2);
 }
 
 .menu {
-    background-color: #feb6d8;
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  background-color: #111111;
 }
- /*---HEADER BACKGROUND--*/
 
-.wrapper {
-  background-image: url(images/header1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0% 50%;
+header {
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
 }
 
 /*--TERMINA O HEADER--*/
@@ -182,11 +189,11 @@ a {
 }
 
 .galleria .prevNext a {
-	background: rgba(0, 0, 0, 0.3);
+	background:rgba(0, 0, 0, 0.3);
 	position: absolute;
-	width:       60px;
-	height:      60px;
-	line-height: 60px;
+	width:       40px;
+	height:      40px;
+	line-height: 40px;
 	text-align: center;
 	opacity: 0.7;
 	-webkit-transition: 0.3s;
@@ -196,8 +203,7 @@ a {
 	left: 0;
 }
 .galleria .prevNext a:hover {
-  background: rgba(0, 0, 0, 0.5);
-	opacity: 1;
+	background-color: rgba(255, 255, 255, 0.3);
 }
 .galleria .prevNext a+a {
 	left: auto;
@@ -226,18 +232,18 @@ a {
 					transition: 0.3s;
 }
 .galleria .bullets > a+a {
-	background: rgba(255, 255, 255, 0.5); /* Dim all but first */
+	background: rgba(0, 0, 0, 0.3); /* Dim all but first */
 }
 .galleria .bullets > a:hover {
-	background: rgba(255, 255, 255, 0.7) !important;
+	background: rgba(255, 255, 255, 0.3) !important;
 }
 
-.galleria >s:target ~ .bullets >* {      background: rgba(255, 255, 255, 0.5);}
+.galleria >s:target ~ .bullets >* {      background: rgba(0, 0, 0, 0.4);}
 
-#s1:target ~ .bullets >*:nth-child(1) {background: rgba(255, 255, 255,   1);}
-#s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
-#s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
-#s4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1);}
+#s1:target ~ .bullets >*:nth-child(1) {background: rgba(0, 0, 0, 0.3);}
+#s2:target ~ .bullets >*:nth-child(2) {background: rgba(0, 0, 0, 0.3);}
+#s3:target ~ .bullets >*:nth-child(3) {background: rgba(0, 0, 0, 0.3);}
+#s4:target ~ .bullets >*:nth-child(4) {background: rgba(0, 0, 0, 0.3);}
 
 
 .galleria >s:target ~ .prevNext >* {   visibility: hidden;}
@@ -282,7 +288,7 @@ a {
 .prevNext a {
   border-radius: 50%;
 	margin: 0 3px;
-  color: #000000;
+  color: #ffffff;
 	text-decoration: none;
   font-family: houschka-rounded, sans-serif;
   font-style: normal;
@@ -318,18 +324,20 @@ footer {
   width: 100%;
   clear: both;
   position: relative;
-  background-color: #feb6d8;
+  background-color: #111111;
+  border-top-style: solid;
+  border-top-color: #000000;
 }
 
 .copyright p {
   border: 0;
   margin: 0;
-  padding: 1%;
+  padding: 0.5%;
 	font-size: 70%;
   font-family: houschka-rounded, sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #474747;
+  color: #ffffff;
 }
 
 
