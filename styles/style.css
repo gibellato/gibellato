@@ -102,8 +102,8 @@ a {
   box-sizing: border-box;
   text-align: center;
   margin: 0;
-  padding: 0;
-}
+  padding-left: 13%;
+  }
 
 .nav-item {
   display: inline-block;
