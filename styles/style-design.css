@@ -109,15 +109,10 @@ a {
 .menu {
   width: 100%;
 }
-.container {
-  text-align: center;
-  position: fixed;
-  z-index: 99999;
-  background-color: rgba(255, 255, 255, 0.5);
-}
+
 
 #title {
-  padding-top: 8%;
+  padding-top: 5%;
   padding-bottom: 20px;
   display: block;
   text-align: center;
