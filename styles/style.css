@@ -300,5 +300,28 @@ footer {
             .nav-item {
               display: block;
               width: 100%;
+              float: left;
+              padding: 10px;
+            }
+            .menu ul{
+              padding: 0;
+              margin: 0;
+            }
+            header {
+              background-position: 60%;
+            }
+            .headerflag{
+              width: 5%;
+              height: 5%;
+            }
+            .headericon {
+              width: 5%;
+              height: 5%;
+            }
+            .galleria {
+              width: 100%;
+            }
+            .galleria .slider h2{
+              margin-top: 20%;
             }
          }
