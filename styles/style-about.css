@@ -150,11 +150,19 @@ header {
   text-align: center;
   }
 
-#inicio {
+.inicio h2{
   width: 100%;
   margin: 0;
   border: 0;
-  padding-top: 100px;
+  padding-top: 200px;
+  font-family: houschka-rounded, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 400%;
+  color: #ff7ebb;
+}
+
+.inicio h3 {
   font-family: houschka-rounded, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -183,9 +191,6 @@ header {
   width: 100%;
 }
 
-#parte1 {
-  padding-bottom: 70px;
-}
 
 #patricia {
   width: 25%;
@@ -194,43 +199,37 @@ header {
   padding-bottom: 40px;
 }
 
+#parte2 {
+  padding-top: 70px;
+}
+
 #natacao {
   width: 25%;
   height: 25%;
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 40px;
 }
 
-#parte3 {
-  padding-bottom: 70px;
-}
 
 #desenho {
   width: 25%;
   height: 25%;
-  padding-top: 0;
+  padding-top: 70px;
   padding-bottom: 40px;
 }
 
-#parte4{
-  padding-bottom: 100px;
-}
 
 #cannes {
   width: 25%;
   height: 25%;
-  padding-top: 0;
+  padding-top: 120px;
   padding-bottom: 40px;
-}
-
-#parte5 {
-  padding-bottom: 55px;
 }
 
 #dickens {
   width: 25%;
   height: 25%;
-  padding-top: 0;
+  padding-top: 55px;
   padding-bottom: 40px;
 }
 
