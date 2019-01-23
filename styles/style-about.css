@@ -244,12 +244,13 @@ a {
               margin: 0;
               padding: 0;
               text-align: center;
-              margin-right: 13%;
+              margin-right: 5%;
             }
             .nav-item {
               width: 100%;
               display: inline-block;
               text-align: center;
+              padding: 10px;
             }
             .navigation a {
               margin-left: 0;
