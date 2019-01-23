@@ -320,8 +320,26 @@ footer {
             }
             .galleria {
               width: 100%;
+              height: auto;
             }
-            .galleria .slider h2{
-              margin-top: 20%;
+            .galleria .slider h2 {
+            	padding-top: 20%;
+              font-family: houschka-rounded, sans-serif;
+              font-style: normal;
+              font-weight: 600;
+            	font-size: 200%;
+              color: #f1a6a1;
+              text-shadow: 2px 2px #111111;
+              width: 50%;
+              margin: auto;
+            }
+
+            .galleria .slider p {
+              font-family: houschka-rounded, sans-serif;
+              font-style: normal;
+              font-weight: 400;
+            	font-size: 90%;
+              width: 50%;
+              margin: auto;
             }
          }
