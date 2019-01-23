@@ -128,6 +128,15 @@ a {
   font-size: 300%;
 
 }
+
+header {
+  background-image: url(images/paris.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 30%;
+  height: 100%;
+}
+
 /*--Termina o header--*/
 
 * {
