@@ -1,0 +1,174 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.headericon {
+  min-width: 2%;
+  min-height: 2%;
+  width: 2%;
+  height: 2%;
+  margin: 1%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px #feb6d8;
+  float: left;
+  transition: transform .3s;
+  }
+}
+
+.top-icons {
+    width: 100%;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.headerflag {
+  min-width: 2%;
+  min-height: 2%;
+  width: 2.5%;
+  height: 2.5%;
+  margin: 1%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px #feb6d8;
+  float: right;
+  transition: transform .3s;
+  display: inline-block;
+  }
+
+.headerflag:hover {
+  transform: scale(1.6) rotate(360deg);
+}
+
+.headericon {
+  min-width: 2%;
+  min-height: 2%;
+  width: 2%;
+  height: 2%;
+  margin: 1%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px #feb6d8;
+  float: left;
+  transition: transform .3s;
+  display: inline-block;
+  }
+
+.headericon:hover {
+  transform: scale(1.6) rotate(360deg);
+}
+
+.menu-logo {
+  display: inline-block;
+  justify-content: center;
+  }
+
+.menu-logo a{
+  display: inline-block;
+  position: sticky;
+}
+
+#pat {
+  padding: 0.8%;
+  min-width: 3%;
+  min-height: 3%;
+  width: 8%;
+  height: 8%;
+  transition: transform .2s;
+  vertical-align: middle;
+  position: relative;
+}
+
+.menu-logo:hover {
+  transform: scale(1.3);
+}
+
+
+.menu ul {
+  list-style: none;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+  padding-left: 13%;
+  }
+
+.nav-item {
+  display: inline-block;
+  font-family: houschka-rounded, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100%;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 33px;
+  margin-left: -4px;
+}
+
+.nav-item a:hover {
+  color: #ffffff;
+  background-color: #333333;
+}
+.menu li {
+  transition: transform .2s;
+}
+.menu li:hover {
+  transform: scale(1.2);
+}
+
+.menu {
+  width: 100%;
+  background-color: #111111;
+}
+
+header {
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+}
+
+/*--TERMINA O HEADER--*/
+/*--FOOTER--*/
+
+footer {
+  width: 100%;
+  clear: both;
+  position: relative;
+  background-color: #111111;
+  border-top-style: solid;
+  border-top-color: #000000;
+}
+
+.copyright p {
+  border: 0;
+  margin: 0;
+  padding: 0.5%;
+	font-size: 70%;
+  font-family: houschka-rounded, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+
+
+@media screen and (max-width: 610px) {
+            .nav-item {
+              display: block;
+              width: 100%;
+            }
+         }
