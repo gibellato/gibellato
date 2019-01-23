@@ -154,8 +154,7 @@ header {
   width: 100%;
   margin: 0;
   border: 0;
-  padding-top: 200px;
-  padding-bottom: 10px;
+  padding-top: 100px;
 }
 
 .about-me h2{
@@ -164,6 +163,8 @@ header {
   font-weight: 600;
   font-size: 400%;
   color: #ff7ebb;
+  margin:0;
+  width: 100%;
 }
 
 .about-me p {
@@ -172,26 +173,85 @@ header {
   font-weight: 400;
   font-size: 110%;
   color: #000000;
+  padding: 0;
+  margin:0;
+  width: 100%;
 }
 
 #parte1 {
-  width: 100%;
-  margin: 0;
-  border: 0;
+  padding-bottom: 70px;
 }
 
 #patricia {
+  width: 25%;
+  height: 25%;
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
-
-#parte2 {
+#natacao {
+  width: 25%;
+  height: 25%;
   padding-top: 50px;
+  padding-bottom: 40px;
 }
 
+#parte3 {
+  padding-bottom: 70px;
+}
 
+#desenho {
+  width: 25%;
+  height: 25%;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
 
+#parte4{
+  padding-bottom: 100px;
+}
+
+#cannes {
+  width: 25%;
+  height: 25%;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+
+#parte5 {
+  padding-bottom: 55px;
+}
+
+#dickens {
+  width: 25%;
+  height: 25%;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+
+#parte6 {
+  padding-bottom: 50px;
+}
+
+.cv {
+  font-family: houschka-rounded, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 200%;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.cv a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px;
+  background-color: #ff7ebb;
+}
+
+.cv a:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+}
 
 .hideme
 {
