@@ -158,8 +158,9 @@ a {
   font-size: 110%;
   color: #000000;
   padding: 0;
-  margin:0;
-  width: 100%;
+  margin: auto;
+  width: 40%;
+  text-align: center;
 }
 
 
@@ -234,33 +235,103 @@ a {
 }
 
 
-/*--FOOTER--*/
-
-footer {
-  width: 100%;
-  clear: both;
-  position: relative;
-  background-color: #111111;
-  border-top-style: solid;
-  border-top-color: #000000;
-}
-
-.copyright p {
-  border: 0;
-  margin: 0;
-  padding: 0.5%;
-	font-size: 70%;
-  font-family: houschka-rounded, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color: #ffffff;
-}
-
-
 
 @media screen and (max-width: 610px) {
             .nav-item {
               display: block;
+              margin:0;
               width: 100%;
+              float: left;
+              padding: 10px;
             }
-         }
+            .menu ul{
+              padding: 0;
+              margin: 0;
+            }
+            #title {
+              padding-top: 10%;
+            }
+            .headerflag{
+              width: 5%;
+              height: 5%;
+            }
+            .headericon {
+              width: 5%;
+              height: 5%;
+            }
+            #patricia {
+              width: 50%;
+              height: 50%;
+            }
+            #natacao {
+              width: 50%;
+              height: 50%;
+            }
+            #desenho {
+              width: 50%;
+              height: 50%;
+            }
+            #dickens {
+              width: 50%;
+              height: 50%;
+            }
+            #cannes {
+              width: 50%;
+              height: 50%;
+            }
+            .inicio h2{
+              width: 50%;
+              margin: auto;
+              border: 0;
+              padding-top: 220px;
+              font-family: houschka-rounded, sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 100%;
+              color: #ff7ebb;
+            }
+
+            .inicio h3 {
+              font-family: houschka-rounded, sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 400%;
+              color: #ff7ebb;
+              margin: auto;
+              width: 50%;
+            }
+
+            .hideme h2{
+              font-family: houschka-rounded, sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 100%;
+              color: #ff7ebb;
+              margin:auto;
+              width: 50%;
+              margim: auto;
+            }
+            .about-me p {
+              font-family: houschka-rounded, sans-serif;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 90%;
+              color: #000000;
+              padding: 0;
+              margin: auto;
+              width: 40%;
+              text-align: center;
+            }
+            .cv {
+              width: 50%;
+              margin: auto;
+                font-family: houschka-rounded, sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 100%;
+                text-align: center;
+                padding-bottom: 60px;
+              }
+
+            }
+          }
