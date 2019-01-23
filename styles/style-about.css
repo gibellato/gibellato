@@ -237,6 +237,10 @@ a {
 
 
 @media screen and (max-width: 610px) {
+              header {
+                width:100%;
+                height: auto;
+              }
             .nav-item {
               display: block;
               margin:0;
@@ -309,7 +313,6 @@ a {
               color: #ff7ebb;
               margin:auto;
               width: 50%;
-              margim: auto;
             }
             .about-me p {
               font-family: houschka-rounded, sans-serif;
@@ -332,6 +335,8 @@ a {
                 text-align: center;
                 padding-bottom: 60px;
               }
-
+              .about-me {
+                height: auto;
+              }
             }
           }
