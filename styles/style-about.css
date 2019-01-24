@@ -168,7 +168,26 @@ a {
   width: 25%;
   height: 25%;
   padding-top: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
+}
+
+#data {
+  font-family: houschka-rounded, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 100%;
+  padding-bottom: 7px;
+}
+
+#data h4 {
+  padding: 0;
+  margin: 0;
+}
+
+#data h5 {
+  padding: 0;
+  margin: 0;
 }
 
 #parte2 {
