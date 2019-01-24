@@ -342,4 +342,8 @@ footer {
               width: 50%;
               margin: auto;
             }
+
+            .galleria .slidelink {
+              padding-top: 7%;
+            }
          }
